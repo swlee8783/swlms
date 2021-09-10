@@ -1,4 +1,4 @@
-package com.siwon.swlms.member.model;
+package com.siwon.swlms.member;
 
 import lombok.Data;
 
