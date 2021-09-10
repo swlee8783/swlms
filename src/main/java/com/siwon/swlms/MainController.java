@@ -17,11 +17,11 @@ import java.io.IOException;
 import java.io.PrintWriter;
 
 @Controller
-public class MainPage {
+public class MainController {
 
     @RequestMapping("/")
     public String index() {
-        return "Index Page";
+        return "index";
     }
 
     // 스프링 -> MVC (View -> 템플릿엔진 화면에 내용을 출력(html))
